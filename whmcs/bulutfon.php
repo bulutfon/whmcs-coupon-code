@@ -24,8 +24,6 @@ if ($ca->isLoggedIn()) {
     // ve dosyayı yazılabilir olarak bırakmalısınız.
     $file = "/json/dosyasi/dizinini/belirtin/bulutfon.json";
     
-    $code = false;
-    
     if (file_exists($file))
     {
         $userkey =false;
