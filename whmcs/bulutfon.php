@@ -17,6 +17,11 @@ $ca->initPage();
 $ca->requireLogin(); 
  
 if ($ca->isLoggedIn()) {
+    // Bulutfon indirim kuponlarının bulunduğu json dosyasının yolunu
+    // bu kısımdan belirtmeniz gerekir. Dizinin internet üzerinden
+    // erişilemediğinden emin olmanız gerekir örneğin cPanel bir sunucu
+    // üzerinde public_html gerisinde bir dizine bu dosyayı göndermeli
+    // ve dosyayı yazılabilir olarak bırakmalısınız.
     $file = "/json/dosyasi/dizinini/belirtin/bulutfon.json";
     
     $code = false;
@@ -71,7 +76,9 @@ if ($ca->isLoggedIn()) {
     }
     $ca->assign('userkey',$userkey);
  } 
-
+// Bu kısımda bulutfon için yapmış olduğunuz bir tema var ise bunu belirtemniz gerekir
+// özel bir whmcs teması kullanıyorsanız bir alt sayfanın tpl dosyasını clone ederek
+// editleyebilirsiniz.
 $ca->setTemplate('bulutfon');
 
 $ca->output();
