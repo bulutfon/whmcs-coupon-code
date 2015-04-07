@@ -1,7 +1,6 @@
 <?php
  
 define("CLIENTAREA",true);
-//define("FORCESSL",true); // Uncomment to force the page to use https://
  
 require("init.php");
 

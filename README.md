@@ -11,3 +11,7 @@ Repo'da WHMCS klasöründe bulunan bulutfon.php isimli dosya indirim kuponların
 ### 2. Aşama
 
 Bulutfon'dan aldığınız indirim kuponlarını json formatına çevirmek için repo'da ana dizinde bulunan coupontojson.sh bash script dosyasını kullanabilirsiniz. Bulutfon indirim kuponlarını bir dosyaya sıralı şekilde yazdıktan sonra `sh coupontojson.sh dosyaadi.txt` şeklinde komut vererek dosyanın çalıştığı dizinde json formatındaki bulutfon.json dosyasına ulaşabilirsiniz.
+
+### 3. Aşama
+
+**bulutfon.tpl** dosyasını kullandığınız Whmcs template'i içerisine kopyalayın ve istediğinize göre düzenleyin.
