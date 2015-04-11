@@ -9,11 +9,6 @@
                     <h1 style="text-align:center;">{$userkey}</h1>
                 {/if}
             {/if}
-            <!--
-                Referans numaranızı linke ekleyebilirsiniz.
-                Örnek:
-                https://www.bulutfon.com?ref=4
-            -->
             <a href="https://www.bulutfon.com" class="btn btn-success" target="_blank">Bulutfon aboneliğinizi başlatın.</a>
   </div>
 </div>
