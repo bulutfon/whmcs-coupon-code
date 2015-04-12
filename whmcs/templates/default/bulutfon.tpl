@@ -11,4 +11,10 @@
             {/if}
             <a href="https://www.bulutfon.com" class="btn btn-success" target="_blank">Bulutfon aboneliğinizi başlatın.</a>
   </div>
+  <ul>
+	<li>Kupon kodu 31 Aralık 2015 tarihine kadar geçerlidir. Kupon kodu size özel oluşturulmuştur.</li>
+	<li>Kupon kodu sadece yeni satın alınmış Bulutfon hesaplarında kullanılabilir.</li>
+	<li>Kupon kodu ilk ay için yapılan ödemeden sonraki devam eden 3 ay ücretsiz kullanım hakkı sağlar.</li>
+	<li>Bu kupon kodunun kullanımına ilişkin bilgi için tıklayınız : <a href="https://www.bulutfon.com/cms/bilgi-havuzu/kupon-kodunu-nasil-kullanabiliriz/" target="_blank">www.bulutfon.com/cms/bilgi-havuzu/kupon-k.. </li>
+   </ul>
 </div>
